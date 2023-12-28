@@ -51,6 +51,8 @@ return {
                     colored_indent_levels = false,
                 },
                 markdown = true,
+                noice = true,
+                notify = true,
                 semantic_tokens = true,
                 treesitter = true,
                 treesitter_context = true,

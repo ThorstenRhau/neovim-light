@@ -4,6 +4,10 @@ return {
     opts = {
         preset = "modern",
         delay = 350,
+        icons = {
+            rules = false, -- Disabling all icons
+            separator = ">",
+        },
     },
     keys = {
         {

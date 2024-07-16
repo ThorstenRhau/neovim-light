@@ -1,13 +1,16 @@
 return {
     "folke/which-key.nvim",
+    dependencies = {
+        "echasnovski/mini.icons",
+    },
     event = "VeryLazy",
     opts = {
         preset = "modern",
-        delay = 350,
         icons = {
             rules = false, -- Disabling all icons
             separator = ">",
         },
+        delay = 350,
     },
     keys = {
         {

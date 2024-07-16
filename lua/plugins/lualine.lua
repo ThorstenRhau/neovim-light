@@ -10,7 +10,6 @@ return {
     {
         "nvim-lualine/lualine.nvim",
         enabled = true,
-        lazy = true,
         event = "VeryLazy",
         dependencies = {
             "echasnovski/mini.icons",
@@ -44,15 +43,6 @@ return {
                 lualine_y = {},
                 lualine_z = {},
             },
-            --  tabline = {
-            --      lualine_a = {
-            --          {
-            --              "buffers",
-            --              right_padding = 2,
-            --              symbols = { alternate_file = "" },
-            --          },
-            --      },
-            --  },
             extensions = {
                 "fugitive",
                 "fzf",

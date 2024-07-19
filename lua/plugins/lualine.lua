@@ -6,6 +6,7 @@ local function show_macro_recording()
         return "Recording @" .. recording_register
     end
 end
+
 return {
     {
         "nvim-lualine/lualine.nvim",
@@ -29,8 +30,21 @@ return {
             },
             sections = {
                 lualine_a = { "mode", show_macro_recording },
-                lualine_b = { "branch", { "diff", colored = false }, "diagnostics" },
-                lualine_c = { "filename" },
+                lualine_b = { "branch", "diff", "diagnostics" },
+                lualine_c = {
+                    {
+                        "filename",
+                        file_status = true,
+                        newfile_status = true,
+                        path = 1,
+                        symbols = {
+                            modified = "[+]",
+                            readonly = "[-]",
+                            unnamed = "[No Name]",
+                            newfile = "[New]",
+                        },
+                    },
+                },
                 lualine_x = { "encoding", "fileformat", "filetype", "filesize" },
                 lualine_y = { "progress" },
                 lualine_z = { "location" },
@@ -49,8 +63,11 @@ return {
                 "lazy",
                 "man",
                 "mason",
+                "neo-tree",
+                "oil",
                 "quickfix",
                 "symbols-outline",
+                "toggleterm",
                 "trouble",
             },
         },

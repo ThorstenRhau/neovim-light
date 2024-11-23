@@ -55,4 +55,5 @@ require("config.autocmd")
 
 require("config.intro")
 
+vim.o.background = "light"
 vim.cmd.colorscheme("catppuccin")

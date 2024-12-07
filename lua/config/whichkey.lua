@@ -65,11 +65,7 @@ wk.add({
         end,
         desc = "Colorcolumn",
     },
-    { "<leader>uh", "<cmd>set list!<CR>", desc = "Hidden Characters" },
-    { "<leader>ul", "<cmd>set number!<cr>", desc = "Line numbers" },
-    { "<leader>ur", "<cmd>set relativenumber!<cr>", desc = "Relative line numbers" },
-    { "<leader>us", "<cmd>noh<cr>", desc = "Hide search results" },
-    { "<leader>uw", "<cmd>set wrap!<cr>", desc = "Wrap lines" },
+    { "<leader>uH", "<cmd>set list!<CR>", desc = "Hidden Characters" },
     --                                  ╭─────────╮
     --                                  │ Window  │
     --                                  ╰─────────╯

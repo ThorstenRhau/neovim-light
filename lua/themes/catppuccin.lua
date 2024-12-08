@@ -9,7 +9,7 @@ return {
             flavour = "macchiato", -- latte, frappe, macchiato, mocha
             background = {
                 light = "latte",
-                dark = "frappe",
+                dark = "mocha",
             },
             transparent_background = false,
             show_end_of_buffer = false,

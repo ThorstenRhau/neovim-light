@@ -6,16 +6,17 @@ return {
         bigfile = { enabled = true },
         git = { enabled = true },
         gitbrowse = { enabled = true },
-        lazygit = { enabled = false },
-        notifier = { enabled = true, timeout = 5000 },
-        quickfile = { enabled = true },
-        statuscolumn = { enabled = true },
-        words = { enabled = true },
+        notify = { enabled = true },
+        notifier = {
+            enabled = true,
+            timeout = 3000,
+        },
         styles = {
             notification = {
                 wo = { wrap = true }, -- Wrap notifications
             },
         },
+        terminal = { enabled = true },
     },
 
     keys = {

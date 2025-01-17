@@ -1,4 +1,4 @@
-# neovim-light
+# neovim-light (merged to neovim repo)
 
 **This configuration is no longer maintained**
 
